@@ -68,6 +68,12 @@ const artworkSources = [
   'Images/DesignChallenge (4).jpeg',
   'Images/GlasTeVer (13).png'
 ];
+const artworkCaptions = [
+  'Animation: Verbeelding, 2026',
+  'Game: Horror Stories, 2026',
+  'Design Challenge: Tomorrowland, 2026',
+  'Game: Een Glas Te Ver, 2025'
+];
 
 let currentIndex = 0;
 
@@ -119,6 +125,7 @@ if (carousel) {
 const fullscreenViewer = document.querySelector('.fullscreen-viewer');
 if (fullscreenViewer) {
   const image = fullscreenViewer.querySelector('.fullscreen-image');
+  const caption = fullscreenViewer.querySelector('.viewer-caption');
   const previousButton = fullscreenViewer.querySelector('.viewer-previous');
   const nextButton = fullscreenViewer.querySelector('.viewer-next');
   const closeButton = fullscreenViewer.querySelector('.viewer-close');
@@ -136,6 +143,7 @@ if (fullscreenViewer) {
     transitionTimeout = window.setTimeout(() => {
       image.src = artworkSources[viewerIndex];
       image.alt = `Portfolio artwork ${viewerIndex + 1} of ${artworkSources.length}`;
+      caption.textContent = artworkCaptions[viewerIndex];
       previousButton.hidden = viewerIndex === 0;
 
       requestAnimationFrame(() => {

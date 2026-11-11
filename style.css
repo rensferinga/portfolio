@@ -67,13 +67,6 @@ body {
 .dot.yellow { background: #f1c25d; }
 .dot.green { background: #61c850; }
 
-.browser-address {
- font-size: 11px;
- color: rgba(0, 0, 0, 0.7);
- font-weight: 500;
- letter-spacing: 0.02em;
-}
-
 .page-shell {
  display: flex;
  flex: 1;
@@ -226,6 +219,28 @@ body {
 
 .fullscreen-viewer.is-changing .fullscreen-image {
  opacity: 0;
+}
+
+.viewer-caption {
+ position: absolute;
+ z-index: 1;
+ right: 70px;
+ bottom: 24px;
+ left: 70px;
+ margin: 0;
+ color: #111;
+ font-size: 13px;
+ font-weight: 500;
+ line-height: 1.4;
+ text-align: center;
+ opacity: 0;
+ pointer-events: none;
+ transition: opacity 0.2s ease;
+}
+
+.fullscreen-viewer:hover .viewer-caption,
+.fullscreen-viewer:focus-within .viewer-caption {
+ opacity: 1;
 }
 
 .viewer-button {
