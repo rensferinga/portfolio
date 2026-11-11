@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rens Feringa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="browser-window">
+      <div class="browser-bar">
+        <div class="traffic-lights">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <div class="browser-address">rensferinga.com</div>
+      </div>
+
+      <div class="page-shell">
+        <aside class="sidebar">
+          <h1><a href="index.html">Rens Feringa</a></h1>
+
+          <nav class="links" aria-label="Main Navigation">
+            <a href="horror-stories.html">Horror Stories</a>
+            <a href="vr-ux.html">VR UX</a>
+            <a href="animatie.html">Animation</a>
+            <a href="spruit.html">Spruit</a>
+            <a href="design-challenge.html">Design Challenge</a>
+            <a href="overig.html">Other</a>
+          </nav>
+
+          <div class="information-block">
+            <a href="contact.html">Contact</a>
+            <a href="https://www.linkedin.com/in/rens-feringa-660b683b1" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:rm.feringa@st.hanze.nl">Email</a>
+          </div>
+
+          <div class="local-time">
+            <span>Local time</span>
+            <strong id="local-clock">03:47:16</strong>
+          </div>
+        </aside>
+
+        <main class="main-panel">
+          <h2>You've reached the homepage</h2>
+
+          <div class="feature-carousel" aria-label="Portfolio slider" tabindex="0">
+            <div class="carousel-track">
+              <article class="slide active" data-viewer-index="0">
+                <img class="slide-image" src="Images/HeaderAnimatie.png" alt="Header illustration for Verbeelding" />
+              </article>
+              <article class="slide" data-viewer-index="1">
+                <img class="slide-image" src="Images/HorrorStories3.png" alt="Horror Stories project artwork" />
+              </article>
+              <article class="slide" data-viewer-index="2">
+                <img class="slide-image" src="Images/DesignChallenge (4).jpeg" alt="Design Challenge project artwork" />
+              </article>
+              <article class="slide" data-viewer-index="3">
+                <img class="slide-image slide-image-zoom" src="Images/GlasTeVer (13).png" alt="Glas te Ver VR experience artwork" />
+              </article>
+            </div>
+
+            <div class="pagination" aria-label="Choose slide">
+              <button class="dot active" data-index="0" aria-label="Show slide 1"></button>
+              <button class="dot" data-index="1" aria-label="Show slide 2"></button>
+              <button class="dot" data-index="2" aria-label="Show slide 3"></button>
+              <button class="dot" data-index="3" aria-label="Show slide 4"></button>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="page-footer">
+        <span>@2026</span>
+        <a href="index.html">Rens Feringa</a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

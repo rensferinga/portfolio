@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 360">
+  <defs>
+    <linearGradient id="frame" x2="1" y2="1">
+      <stop stop-color="#f6c877"/>
+      <stop offset=".48" stop-color="#e78568"/>
+      <stop offset="1" stop-color="#69a9a0"/>
+    </linearGradient>
+    <linearGradient id="night" x2="0" y2="1">
+      <stop stop-color="#283d57"/>
+      <stop offset="1" stop-color="#101c2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="2400" height="360" fill="#dddcd8"/>
+  <g>
+    <rect x="0" width="300" height="360" fill="url(#frame)"/>
+    <rect x="300" width="300" height="360" fill="#f3bd72"/>
+    <rect x="600" width="300" height="360" fill="#8fc2b3"/>
+    <rect x="900" width="300" height="360" fill="#dc7664"/>
+    <rect x="1200" width="300" height="360" fill="url(#night)"/>
+    <rect x="1500" width="300" height="360" fill="#e9b875"/>
+    <rect x="1800" width="300" height="360" fill="#6ba6a2"/>
+    <rect x="2100" width="300" height="360" fill="#e59b75"/>
+  </g>
+  <g opacity=".82" fill="#fff2d6">
+    <path d="M0 245 Q120 120 300 225V360H0Z"/>
+    <path d="M300 180 Q450 70 600 200V360H300Z"/>
+    <path d="M600 230 Q735 115 900 215V360H600Z"/>
+    <path d="M900 155 Q1050 45 1200 170V360H900Z"/>
+    <path d="M1500 210 Q1640 85 1800 220V360H1500Z"/>
+    <path d="M1800 165 Q1950 35 2100 180V360H1800Z"/>
+    <path d="M2100 225 Q2250 105 2400 205V360H2100Z"/>
+  </g>
+  <g fill="#273649" opacity=".8">
+    <path d="M45 280h70v80H45zM140 230h60v130h-60zM345 285h75v75h-75zM500 240h52v120h-52z"/>
+    <path d="M650 280h80v80h-80zM790 235h55v125h-55zM950 265h72v95h-72zM1100 218h54v142h-54z"/>
+    <path d="M1240 280h80v80h-80zM1400 230h65v130h-65zM1550 274h88v86h-88zM1710 220h60v140h-60z"/>
+    <path d="M1850 275h75v85h-75zM2000 230h62v130h-62zM2150 280h80v80h-80zM2300 238h60v122h-60z"/>
+  </g>
+  <g fill="#f6e5ad">
+    <circle cx="95" cy="170" r="32"/><circle cx="450" cy="145" r="28"/>
+    <circle cx="745" cy="162" r="34"/><circle cx="1050" cy="125" r="30"/>
+    <circle cx="1350" cy="160" r="35"/><circle cx="1650" cy="128" r="28"/>
+    <circle cx="1950" cy="145" r="32"/><circle cx="2250" cy="165" r="34"/>
+  </g>
+  <path d="M0 335H2400" stroke="#fff" stroke-opacity=".6" stroke-width="8"/>
+</svg>

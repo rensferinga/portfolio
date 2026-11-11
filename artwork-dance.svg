@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#e8e2d7"/><stop offset="1" stop-color="#f3e5d7"/></linearGradient>
+    <linearGradient id="green" x2="0" y2="1"><stop stop-color="#30a978"/><stop offset="1" stop-color="#0f785e"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g opacity=".32" filter="url(#soft)">
+    <circle cx="170" cy="430" r="95" fill="#e99194"/><circle cx="365" cy="370" r="80" fill="#b4a0d4"/>
+    <circle cx="950" cy="410" r="120" fill="#d8c077"/><circle cx="1080" cy="555" r="90" fill="#9fc9bd"/>
+  </g>
+  <g opacity=".55" fill="#d78f8c">
+    <circle cx="170" cy="340" r="35"/><path d="M135 385q35-23 70 0l44 240-147 0z"/>
+  </g>
+  <g opacity=".55" fill="#9daec0">
+    <circle cx="1020" cy="330" r="32"/><path d="M988 370q35-23 68 0l44 250-155 0z"/>
+  </g>
+  <g transform="translate(360 120)">
+    <circle cx="390" cy="165" r="42" fill="#b87551"/>
+    <path d="M358 198 Q390 178 424 202 L470 415 332 430Z" fill="url(#green)"/>
+    <path d="M360 225 Q282 175 224 66 M419 224 Q484 132 523 15" fill="none" stroke="#b87551" stroke-width="24" stroke-linecap="round"/>
+    <path d="M371 398 L295 663 M432 403 L518 650" fill="none" stroke="#b87551" stroke-width="29" stroke-linecap="round"/>
+    <path d="M330 430 Q395 465 470 415" fill="none" stroke="#dbcb86" stroke-width="18"/>
+  </g>
+  <g transform="translate(180 370) rotate(-12)">
+    <circle cx="190" cy="110" r="34" fill="#4a332d"/>
+    <path d="M159 145 Q190 127 220 148 L244 315 128 315Z" fill="#4f81a4"/>
+    <path d="M159 170 Q97 112 58 48 M217 175 Q274 145 317 111" fill="none" stroke="#4a332d" stroke-width="19" stroke-linecap="round"/>
+    <path d="M155 305 L108 485 M210 305 L281 466" fill="none" stroke="#d46f77" stroke-width="24" stroke-linecap="round"/>
+  </g>
+</svg>

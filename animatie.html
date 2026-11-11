@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation | Rens Feringa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="project-body">
+    <div class="browser-window">
+      <div class="browser-bar">
+        <div class="traffic-lights">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <div class="browser-address">rensferinga.com</div>
+      </div>
+
+      <div class="page-shell">
+        <aside class="sidebar">
+          <h1><a href="index.html">Rens Feringa</a></h1>
+          <nav class="links" aria-label="Main Navigation">
+            <a href="horror-stories.html">Horror Stories</a>
+            <a href="vr-ux.html">VR UX</a>
+            <a href="animatie.html">Animation</a>
+            <a href="spruit.html">Spruit</a>
+            <a href="design-challenge.html">Design Challenge</a>
+            <a href="overig.html">Other</a>
+          </nav>
+          <div class="information-block">
+            <a href="contact.html">Contact</a>
+            <a href="https://www.linkedin.com/in/rens-feringa-660b683b1" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:rm.feringa@st.hanze.nl">Email</a>
+          </div>
+        </aside>
+
+        <main class="main-panel content-page">
+          <div class="project-gallery">
+            <div class="animation-reel" aria-label="Verbeelding animation">
+              <video autoplay muted playsinline loop preload="auto" data-play-when-visible aria-label="Verbeelding animation, part 1">
+                <source src="Images/VideoAnimatiePart1.mp4" type="video/mp4" />
+                Your browser does not support HTML video.
+              </video>
+              <video autoplay muted playsinline preload="auto" data-start-time="16.25" data-loop-from="16.25" data-play-when-visible aria-label="Verbeelding animation, part 2">
+                <source src="Images/VideoAnimatiePart2.mp4" type="video/mp4" />
+                Your browser does not support HTML video.
+              </video>
+              <video autoplay muted playsinline preload="auto" data-start-time="22" data-loop-from="22" data-play-when-visible aria-label="Verbeelding animation, part 3">
+                <source src="Images/VideoAnimatiePart3.mp4" type="video/mp4" />
+                Your browser does not support HTML video.
+              </video>
+            </div>
+            <div class="project-thumbnails">
+              <img src="Images/AnimatieProgress (1).png" alt="Verbeelding animation progress, frame 1" />
+              <img src="Images/AnimatieProgress (2).png" alt="Verbeelding animation progress, frame 2" />
+              <img src="Images/AnimatieProgress (3).png" alt="Verbeelding animation progress, frame 3" />
+              <img src="Images/AnimatieProgress (4).png" alt="Verbeelding animation progress, frame 4" />
+              <img src="Images/AnimatieProgress (5).png" alt="Verbeelding animation progress, frame 5" />
+              <img src="Images/AnimatieProgress (6).png" alt="Verbeelding animation progress, frame 6" />
+            </div>
+            <video class="project-feature" autoplay muted playsinline loop preload="auto" data-play-when-visible aria-label="Verbeelding animation process video">
+              <source src="Images/VideoAnimatieProgress.mp4" type="video/mp4" />
+              Your browser does not support HTML video.
+            </video>
+            <div class="project-copy">
+              <p>Verbeelding is a short animated film created for a school project. It follows a boy who gets lost in his own imagination, with a paper airplane returning throughout the story. The film combines a 3D environment made in Blender with hand-drawn 2D animation using Grease Pencil. I created the house, while some background elements, such as the clouds, were not drawn by me.</p>
+            </div>
+            <ul class="project-credits" aria-label="Project contributions">
+              <li><svg class="credit-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l1.9 5.2 5.6.2-4.4 3.4 1.6 5.4-4.7-3.1-4.7 3.1 1.6-5.4-4.4-3.4 5.6-.2z"/></svg><span>Concept, drawings and story</span></li>
+              <li><svg class="credit-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l1.9 5.2 5.6.2-4.4 3.4 1.6 5.4-4.7-3.1-4.7 3.1 1.6-5.4-4.4-3.4 5.6-.2z"/></svg><span>3D modelling and animation</span></li>
+              <li><svg class="credit-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l1.9 5.2 5.6.2-4.4 3.4 1.6 5.4-4.7-3.1-4.7 3.1 1.6-5.4-4.4-3.4 5.6-.2z"/></svg><span>2D animation with Grease Pencil</span></li>
+            </ul>
+            <div class="project-award" aria-label="Official selection: Expo Nominee, 2026">
+              <img class="award-ferns" src="Images/AwardFerns.png" alt="" />
+              <div class="award-copy">
+                <span class="award-eyebrow">OFFICIAL SELECTION</span>
+                <strong>Expo Nominee</strong>
+                <span class="award-year">2026</span>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="page-footer">
+        <span>@2026</span>
+        <a href="index.html">Rens Feringa</a>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

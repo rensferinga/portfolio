@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f0e9"/></linearGradient>
+    <linearGradient id="fur" x2="1" y2="1"><stop stop-color="#9d4f39"/><stop offset=".55" stop-color="#6f332c"/><stop offset="1" stop-color="#ad6638"/></linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <text x="128" y="215" font-family="cursive" font-size="112" font-style="italic" fill="#151515" transform="rotate(-7 128 215)">OBSESSED!!!</text>
+  <g transform="translate(230 280) rotate(-5 400 270)">
+    <path d="M245 180 Q160 72 220 65 Q285 67 326 171 M562 165 Q612 47 675 76 Q708 100 635 220" fill="#75402d" stroke="#291d1b" stroke-width="15"/>
+    <path d="M240 180 Q155 84 225 83 Q277 84 309 182 M578 181 Q619 75 667 96 Q690 110 622 215" fill="#b87953"/>
+    <path d="M240 195 Q280 105 410 108 Q580 105 640 224 Q710 362 620 490 Q555 586 385 556 Q220 536 191 398 Q170 295 240 195Z" fill="url(#fur)" stroke="#231c1b" stroke-width="17"/>
+    <ellipse cx="300" cy="300" rx="34" ry="48" fill="white"/><ellipse cx="545" cy="287" rx="34" ry="48" fill="white"/>
+    <ellipse cx="308" cy="310" rx="15" ry="25" fill="#161616"/><ellipse cx="553" cy="298" rx="15" ry="25" fill="#161616"/>
+    <ellipse cx="433" cy="365" rx="93" ry="66" fill="#e6b494"/>
+    <ellipse cx="435" cy="343" rx="30" ry="21" fill="#1e1715"/>
+    <path d="M435 365 Q420 397 395 397 M435 365 Q454 397 479 393" fill="none" stroke="#321f1b" stroke-width="11" stroke-linecap="round"/>
+    <path d="M286 510 Q340 608 465 605 Q558 597 606 518" fill="none" stroke="#ed92a2" stroke-width="57" stroke-linecap="round"/>
+    <path d="M243 473 Q130 505 90 600 M592 482 Q688 535 746 602" fill="none" stroke="#75402d" stroke-width="48" stroke-linecap="round"/>
+    <circle cx="144" cy="571" r="43" fill="#f1f0e7"/><path d="M126 570 q18-32 36 0 q-18 31-36 0" fill="#ed5045"/>
+    <circle cx="718" cy="577" r="35" fill="#f45143"/><path d="M718 536v-20" stroke="#4f874e" stroke-width="12"/>
+  </g>
+</svg>

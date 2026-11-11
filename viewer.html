@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f1efe8" />
+    <title>Portfolio artwork | Rens Feringa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="fullscreen-page">
+    <main class="fullscreen-viewer" aria-label="Fullscreen portfolio artwork">
+      <img class="fullscreen-image" src="Images/HeaderAnimatie.png" alt="Portfolio artwork 1 of 4" />
+
+      <button class="viewer-button viewer-close" type="button" aria-label="Return to homepage">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+        </svg>
+      </button>
+
+      <button class="viewer-button viewer-arrow viewer-previous" type="button" aria-label="Previous image" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M15 5l-7 7 7 7" />
+        </svg>
+      </button>
+
+      <button class="viewer-button viewer-arrow viewer-next" type="button" aria-label="Next image">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

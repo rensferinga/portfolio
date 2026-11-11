@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f2f1ef"/><stop offset="1" stop-color="#dddcd8"/></linearGradient>
+    <linearGradient id="cover" x2="0" y2="1"><stop stop-color="#f2db7b"/><stop offset=".35" stop-color="#e78658"/><stop offset=".7" stop-color="#e95c50"/><stop offset="1" stop-color="#62a6a0"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <ellipse cx="620" cy="690" rx="360" ry="48" fill="#77736d" opacity=".24" filter="url(#shadow)"/>
+  <g transform="translate(245 170) skewY(-2)">
+    <path d="M170 100h470l80 36v490H250l-80-30z" fill="#d2cec5"/>
+    <path d="M170 100h80v526l-80-30z" fill="#57554b"/>
+    <g opacity=".95">
+      <path d="M190 102h16v511h-16z" fill="#e2513d"/><path d="M211 102h15v515h-15z" fill="#e3b844"/>
+      <path d="M231 102h15v518h-15z" fill="#68a981"/><path d="M251 102h15v520h-15z" fill="#55899b"/>
+      <path d="M271 102h15v520h-15z" fill="#d78b4b"/><path d="M291 102h15v520h-15z" fill="#8d7188"/>
+    </g>
+    <path d="M306 100h360v520H306z" fill="url(#cover)"/>
+    <path d="M306 100h360v104H306z" fill="#eadb8a"/>
+    <path d="M306 204h360v70H306z" fill="#e68f55"/>
+    <path d="M306 274h360v95H306z" fill="#e64f45"/>
+    <path d="M306 369h360v72H306z" fill="#dbb65a"/>
+    <path d="M306 441h360v85H306z" fill="#70aaa1"/>
+    <path d="M306 526h360v94H306z" fill="#d5c58d"/>
+    <path d="M306 100h360v520" fill="none" stroke="#fff" stroke-opacity=".42" stroke-width="8"/>
+    <text x="332" y="146" font-family="Arial,sans-serif" font-size="24" fill="#514b3d">Intro</text>
+    <text x="525" y="590" font-family="Arial,sans-serif" font-size="22" fill="#514b3d">Music</text>
+  </g>
+</svg>
